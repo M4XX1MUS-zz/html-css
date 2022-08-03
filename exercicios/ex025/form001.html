@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form action="cadastro.php" method="post" autocomplete="off"> 
+        <!--form é Usada para criar formulário-->
+
+        <!--action é usado para enviar os dados ddo formulários para uma linguagem de programação (PHP, JavaScript, etc)-->
+
+        <!--method="GET/POST" indica o método de envio dos dados, onde get deixa os dados na URL e POST no código fonte.(GET só suporta até 3 mil bytes)-->
+
+        <!--autocomplete ativa ou desativa o preenchimento automatico.
+        Se usado no input sugere mais opções-->
+        <p><label for="inome">Nome:</label> <input type="text" name="nome" id="inome"></p> <!--Cria o campo para inserir texto-->
+        <p><label for="isobrenome">Sobrenome:</label> <input type="text" name="sobrenome" id="isobrenome"></p>
+        <p><input type="submit" value="Enviar"></p>
+        <!--Cria um botão-->
+        <!--Label vincula o "Texto" ao seu campo de inserir texto. (Usa a id para identificar)-->
+    </form>
+</body>
+</html>
