@@ -1,5 +1,5 @@
 # html-css
- Curso Curso em Video
+ Curso Guanabara
 
 Estou aprendendo a criar sites e agora vou aprender a criar repositórios.
 
